@@ -3,7 +3,7 @@ Console.WriteLine("Введите число A: ");
 int A = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите число B: ");
 int B = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"{A} в степени {B} = {ToDegree}");
+Console.WriteLine($"{A} в степени {B} = {ToDegree(A,B)}");
 
 
 // Функция возведения в степень
