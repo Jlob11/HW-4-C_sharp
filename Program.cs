@@ -23,7 +23,7 @@ int ToDegree(int A, int B)
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 
 // 6, 1, 33 -> [6, 1, 33]
-/*
+
 int[] array = GetBinaryArray(8);
 Console.WriteLine($"[{string.Join(",", array)}]");
 
@@ -35,7 +35,7 @@ int[] GetBinaryArray(int size)
     }
 return result;
 }
-*/
+
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
 // 452 -> 11
@@ -43,7 +43,7 @@ return result;
 // 82 -> 10
 
 // 9012 -> 12
-/*
+
 Console.WriteLine("Введи чило ");
 int number = int.Parse(Console.ReadLine()!);
 Console.Write($"Сумма цифр в числе {number} = {sum}");
@@ -57,4 +57,3 @@ int sum(string number())
     }
     return result;
 }
-*/
